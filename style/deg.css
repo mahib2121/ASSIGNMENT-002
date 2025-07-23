@@ -93,3 +93,22 @@ body {
   }
   
 
+/* part 2  */
+
+.store_sction{
+    text-align: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+.store_head{
+    max-width: 850px;
+    margin: 0 auto 50px;
+}
+
+
+.store_Title{
+    font-weight: 700;
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
