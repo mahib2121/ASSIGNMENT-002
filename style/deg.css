@@ -1,114 +1,164 @@
 /* Base font */
 
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
-    /* font-family: "Inter", sans-serif; */
-    font-family: "Noto Serif", serif;
-    margin: 0;
-    padding: 0;
-  }
+  /* font-family: "Inter", sans-serif; */
+  font-family: "Noto Serif", serif;
+  margin: 0;
+  padding: 0;
+}
 
-  .display-flex {
-    display: flex;
-    align-items: center;
-  }
+.display-flex {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
 
-  .bg-light {
-    background-color: #f5f8ff;
-  }
-  
-  .f2{
-     font-family: "Inter", sans-serif;
-  }
+.bg-light {
+  background-color: #f5f8ff;
+}
+
+.f2 {
+  font-family: "Inter", sans-serif;
+}
 
 /* Navbar */
-  .navBar {
-    justify-content: space-between;
-    padding: 30px 80px;
-    max-width: 1440px;
-    margin: 0 auto;
-  }
+.navBar {
+  justify-content: space-between;
+  padding: 30px 80px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
 
-  .bname {
-    font-weight: 700;
-    font-size: 2rem;
-    color: black;
-  }
+.bname {
+  font-weight: 700;
+  font-size: 2rem;
+  color: black;
+}
 
-  .navLinks {
-    display: flex;
-    list-style: none;
-    gap: 30px;
-  }
+.navLinks {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
 
-  .navLink {
-    text-decoration: none;
-    color: black;
-    font-weight: 500;
-    transition: color 0.3s;
-  }
+.navLink {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  transition: color 0.3s;
+}
 /* banner */
-  .banner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1440px;
-    margin: 20px auto;
-    padding: 50px 20px;
-    gap: 40px;
-  }
-  
-  .banner_content {
-    flex: 1;
-    max-width: 50%;
-  }
-  
-  .banner_Title {
-    font-weight: 700;
-    font-size: 4rem;
-    margin-bottom: 20px;
-    line-height: 1.2;
-  }
-  
-  .banner_detail {
-    font-size: 1rem;
-    color: #555;
-    margin-bottom: 30px;
-  }
-  
-  .banner-image-container {
-    flex: 1;
-    max-width: 50%;
-  }
-  
-  .banner-image {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
-  }
-  
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 20px auto;
+  padding: 50px 20px;
+  gap: 40px;
+}
+
+.banner_content {
+  flex: 1;
+  max-width: 50%;
+}
+
+.banner_Title {
+  font-weight: 700;
+  font-size: 4rem;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.banner_detail {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.banner-image-container {
+  flex: 1;
+  max-width: 50%;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
 
 /* part 2  */
 
-.store_sction{
-    text-align: center;
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 40px 20px;
+.store_sction {
+  text-align: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 40px 20px;
 }
-.store_head{
-    max-width: 850px;
-    margin: 0 auto 50px;
+.store_head {
+  max-width: 850px;
+  margin: 0 auto 50px;
+}
+
+.store_Title {
+  font-weight: 700;
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.flower-Container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  
+}
+.flower-card{
+  border: 1px solid white;
+  width: 240px;
+  height: auto;
+  border-radius: 12px;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  align-items: center;
+  
+  flex-direction: column;
+  justify-content: space-between;
+}
+.flower_name{
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.flower_price{
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.cart{
+  background-color: #ff900e;
+  color: white;
+  padding: 12px 20px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.flower-cardimg {
+  width: 100%; 
+  height: 200px; 
+  object-fit: cover; 
+  border-radius: 8px; 
+  margin-bottom: 15px; 
 }
 
 
-.store_Title{
-    font-weight: 700;
-    font-size: 4rem;
-    margin-bottom: 20px;
-}
