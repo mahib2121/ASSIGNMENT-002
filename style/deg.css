@@ -162,3 +162,59 @@ body {
 }
 
 
+/* p3 */
+
+.plant_lover {
+  display: flex;
+  max-width: 1200px;
+  margin: 50px auto;
+  border-radius: 10px;
+  position: relative;
+}
+
+.plant_loverIMG {
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+}
+
+.mainIMG {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.badgeIMG {
+  position: absolute;
+  top: 0px;
+  left: 500px;
+  width: 200px;
+  height: auto;
+  z-index: 2;
+}
+
+/* Text content */
+.plant_loverTEXT {
+  padding: 40px 30px;
+  flex: 1;
+}
+
+.store_Title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.plant_loverList {
+  padding-left: 20px;
+  font-size: 1rem;
+  color: #444;
+}
+
+.plant_loverList li {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+
