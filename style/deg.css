@@ -403,3 +403,151 @@ body {
   height: 30px;
   object-fit: contain;
 }
+
+
+
+/* ------------------ Responsive Styles ------------------ */
+@media (max-width: 768px) {
+  /* NAVBAR */
+  .navBar {
+    flex-direction: row;
+    padding: 20px;
+  }
+
+  .logo_D {
+    width: 120px;
+  }
+
+  .navLinks {
+    display: none; 
+  }
+
+  .navBar::after {
+    content: "Cart ($56)";
+    margin-left: auto;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+  }
+
+  /* BANNER */
+  .banner {
+    flex-direction: column-reverse;
+    text-align: left;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .banner_content {
+    max-width: 100%;
+  }
+
+  .banner_Title {
+    font-size: 2.5rem;
+  }
+
+  .banner-image-container {
+    max-width: 100%;
+  }
+
+  /* PLANTS SECTION */
+  .flower-Container {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+
+  .flower-card {
+    width: 90%;
+  }
+
+  /* PLANT LOVER SECTION */
+  .plant_lover {
+    flex-direction: column;
+    padding: 20px;
+    margin: 80px auto;
+  }
+
+  .plant_loverIMG {
+    max-width: 100%;
+  }
+
+  .badgeIMG {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    top: 10px;
+  }
+
+  .plant_loverTEXT {
+    padding: 20px 10px;
+  }
+
+  .store_Title {
+    font-size: 2rem;
+  }
+
+  .plant_loverList {
+    font-size: 0.95rem;
+  }
+
+  /* DEALS IMAGE GRID */
+  .imageContainer {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .col, .row {
+    flex-direction: column;
+  }
+
+  .imageWrapper {
+    height: 200px;
+  }
+
+  /* NEWSLETTER SECTION */
+  .newsletter-section {
+    padding: 40px 15px;
+    text-align: center;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .newsletter-form input[type="email"],
+  .newsletter-form button {
+    width: 100%;
+    max-width: none;
+  }
+
+  .bgIMG {
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* FOOTER */
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .footer-left {
+    text-align: center;
+  }
+
+  .footer-description {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .footer-social {
+    justify-content: center;
+  }
+}
